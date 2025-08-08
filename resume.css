@@ -1,0 +1,35 @@
+section:first-of-type {
+	display: flex;
+	padding: 2rem 0;
+}
+
+.summary__text {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+img {
+	border-radius: 100%;
+	margin-right: 2rem;
+	width: 200px;
+}
+
+.subtitle {
+	text-decoration: none;
+}
+
+section:not(:first-of-type) {
+	border-top: 1px solid black;
+}
+
+h3 {
+	display: flex;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+
+h3 span:last-of-type {
+	font-weight: normal;
+}

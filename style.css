@@ -1,0 +1,46 @@
+body {
+	max-width: 600px;
+	margin: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+nav {
+	align-items: center;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4rem;
+	padding: 0.825rem 0;
+}
+
+nav a, .subtitle {
+	color: rgb(54, 54, 54);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.825rem;
+	text-decoration: none;
+}
+
+
+header {
+	margin: 2rem 0 4rem;
+}
+
+h1, h2 {
+  font-family: "Ledger", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-style: italic;
+  margin: 0;
+}
+
+img {
+	width: 50%;
+}
+
+li, p {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1rem;
+}
