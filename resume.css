@@ -1,6 +1,6 @@
 section:first-of-type {
 	display: flex;
-	padding: 2rem 0;
+	padding: 0 0 2rem;
 }
 
 .summary__text {
@@ -20,7 +20,7 @@ img {
 }
 
 section:not(:first-of-type) {
-	border-top: 1px solid black;
+	border-top: 1px solid #DFDFDF;
 }
 
 h3 {
