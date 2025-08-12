@@ -1,0 +1,11 @@
+.coworker {
+	border-top: 1px solid #DFDFDF;
+	display: flex;
+	padding: 2rem 0;
+}
+
+img {
+	object-fit: scale-down;
+	margin-right: 2rem;
+	width: 200px;
+}
