@@ -1,6 +1,6 @@
-section:first-of-type {
+header {
 	display: flex;
-	padding: 0 0 2rem;
+	padding: 4rem 0;
 }
 
 .summary__text {
@@ -19,8 +19,9 @@ img {
 	text-decoration: none;
 }
 
-section:not(:first-of-type) {
+section {
 	border-top: 1px solid #DFDFDF;
+	padding: 2rem 0;
 }
 
 h3 {
